@@ -8,6 +8,13 @@
     "start": "next start",
     "lint": "eslint"
   },
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.runInTerminal": true,
+  "code-runner.ignoreSelection": true,
+  "code-runner.executorMap": {
+    "typescript": "clear ; npx tsx"
+  },
+
   "dependencies": {
     "next": "^15.5.0",
     "react": "^19.1.1",
