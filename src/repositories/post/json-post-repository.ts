@@ -28,6 +28,6 @@ export class JsonPostRepository implements PostRepository {
     }
 };
 
-export const jsonPostRepository: PostRepository = new JsonPostRepository();
 
-jsonPostRepository.findById("99f8add4-7684-4c16-a316-616271db199e").then(post => console.log(post));
+
+
