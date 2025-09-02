@@ -1,13 +1,17 @@
-import Header from "@/components/Header";
+import PostsList from "@/components/PostsList";
 
-export default function Home() {
+export default async function HomePage() {
   return (
     <>
+      <header>
+        <h1 className="text-6xl font-bold text-center py-8">Blog Posts</h1>
+      </header>
       <main>
-        <Header />
-        <h1>Bem-vindo ao Blogger</h1>
-        <p>Este é o seu espaço para compartilhar ideias e pensamentos sobre tecnologia.</p>
+        <PostsList />
       </main>
+      <footer>
+        <p className="text-center py-4">© 2025 Blog Posts</p>
+      </footer>
     </>
   );
 }
